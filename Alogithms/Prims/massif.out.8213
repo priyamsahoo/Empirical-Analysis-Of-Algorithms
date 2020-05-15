@@ -1,0 +1,1436 @@
+desc: --time-unit=B
+cmd: java MSTclear
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=223888
+mem_heap_B=102257
+mem_heap_extra_B=4975
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=530432
+mem_heap_B=153977
+mem_heap_extra_B=14087
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=691672
+mem_heap_B=245767
+mem_heap_extra_B=19681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1740256
+mem_heap_B=1294343
+mem_heap_extra_B=19689
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=1740360
+mem_heap_B=1294439
+mem_heap_extra_B=19697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2788944
+mem_heap_B=2343015
+mem_heap_extra_B=19705
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2789048
+mem_heap_B=2343111
+mem_heap_extra_B=19713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=3837632
+mem_heap_B=3391687
+mem_heap_extra_B=19721
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=3837736
+mem_heap_B=3391783
+mem_heap_extra_B=19729
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=4886320
+mem_heap_B=4440359
+mem_heap_extra_B=19737
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=4886424
+mem_heap_B=4440455
+mem_heap_extra_B=19745
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=5935008
+mem_heap_B=5489031
+mem_heap_extra_B=19753
+mem_stacks_B=0
+heap_tree=detailed
+n3: 5489031 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 5383545 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n2: 5337241 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 5242880 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 5242880 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 5242880 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 5242880 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 5242880 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 5242880 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 5242880 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 5242880 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 5242880 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 5242880 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 5242880 0x4BB54CE: clone (clone.S:95)
+   n0: 94361 in 507 places, all below massif's threshold (1.00%)
+  n0: 46304 in 3 places, all below massif's threshold (1.00%)
+ n1: 72704 0x6232D55: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.27)
+  n1: 72704 0x400F379: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F475: call_init (dl-init.c:118)
+    n1: 72704 0x400F475: _dl_init (dl-init.c:119)
+     n1: 72704 0x40132D2: dl_open_worker (dl-open.c:517)
+      n1: 72704 0x4BF0B2E: _dl_catch_exception (dl-error-skeleton.c:196)
+       n1: 72704 0x4012BB9: _dl_open (dl-open.c:599)
+        n1: 72704 0x4AB6255: dlopen_doit (dlopen.c:66)
+         n1: 72704 0x4BF0B2E: _dl_catch_exception (dl-error-skeleton.c:196)
+          n1: 72704 0x4BF0BBE: _dl_catch_error (dl-error-skeleton.c:215)
+           n1: 72704 0x4AB6974: _dlerror_run (dlerror.c:163)
+            n1: 72704 0x4AB62E5: dlopen@@GLIBC_2.2.5 (dlopen.c:87)
+             n1: 72704 0x4AACA30: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+              n1: 72704 0x4AA9BC6: JLI_Launch (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+               n1: 72704 0x1091FD: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/bin/java)
+                n0: 72704 0x4AE009A: (below main) (libc-start.c:308)
+ n0: 32782 in 46 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=5935112
+mem_heap_B=5489127
+mem_heap_extra_B=19761
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=6983696
+mem_heap_B=6537703
+mem_heap_extra_B=19769
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=6983800
+mem_heap_B=6537799
+mem_heap_extra_B=19777
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=8032384
+mem_heap_B=7586375
+mem_heap_extra_B=19785
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=8032488
+mem_heap_B=7586471
+mem_heap_extra_B=19793
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=9081072
+mem_heap_B=8635047
+mem_heap_extra_B=19801
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=9289944
+mem_heap_B=8842411
+mem_heap_extra_B=20989
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=10338528
+mem_heap_B=9890987
+mem_heap_extra_B=20997
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=10355456
+mem_heap_B=9907867
+mem_heap_extra_B=21045
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=11404040
+mem_heap_B=10956443
+mem_heap_extra_B=21053
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=11420968
+mem_heap_B=10973323
+mem_heap_extra_B=21101
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=12469552
+mem_heap_B=12021899
+mem_heap_extra_B=21109
+mem_stacks_B=0
+heap_tree=detailed
+n2: 12021899 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 11915723 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n3: 11857155 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 3145728 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 3145728 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 3145728 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 3145728 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 3145728 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 3145728 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 3145728 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 3145728 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 3145728 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 3145728 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 3145728 0x4BB54CE: clone (clone.S:95)
+   n0: 322819 in 539 places, all below massif's threshold (1.00%)
+  n0: 58568 in 3 places, all below massif's threshold (1.00%)
+ n0: 106176 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=12486480
+mem_heap_B=12038779
+mem_heap_extra_B=21157
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=13535064
+mem_heap_B=13087355
+mem_heap_extra_B=21165
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=13551992
+mem_heap_B=13104235
+mem_heap_extra_B=21213
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=14600576
+mem_heap_B=14152811
+mem_heap_extra_B=21221
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=14617504
+mem_heap_B=14169691
+mem_heap_extra_B=21269
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=15666088
+mem_heap_B=15218267
+mem_heap_extra_B=21277
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=15683016
+mem_heap_B=15235147
+mem_heap_extra_B=21325
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=16731600
+mem_heap_B=16283723
+mem_heap_extra_B=21333
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=16748528
+mem_heap_B=16300603
+mem_heap_extra_B=21381
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=17797112
+mem_heap_B=17349179
+mem_heap_extra_B=21389
+mem_stacks_B=0
+heap_tree=detailed
+n2: 17349179 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 17243003 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n3: 17184435 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 8388608 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n0: 407219 in 539 places, all below massif's threshold (1.00%)
+  n0: 58568 in 3 places, all below massif's threshold (1.00%)
+ n0: 106176 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=18093312
+mem_heap_B=17638319
+mem_heap_extra_B=28449
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=18403192
+mem_heap_B=17939621
+mem_heap_extra_B=34403
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=18586336
+mem_heap_B=18122097
+mem_heap_extra_B=35071
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=18746440
+mem_heap_B=18282185
+mem_heap_extra_B=35087
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=19115160
+mem_heap_B=18650889
+mem_heap_extra_B=35103
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=19115912
+mem_heap_B=18651562
+mem_heap_extra_B=35182
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=19640248
+mem_heap_B=19175882
+mem_heap_extra_B=35198
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=19832288
+mem_heap_B=19296004
+mem_heap_extra_B=41084
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=20039384
+mem_heap_B=19359727
+mem_heap_extra_B=46201
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=20204928
+mem_heap_B=19507360
+mem_heap_extra_B=47024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=20527248
+mem_heap_B=19828935
+mem_heap_extra_B=47721
+mem_stacks_B=0
+heap_tree=detailed
+n3: 19828935 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 19442429 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n4: 18028292 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 8388608 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n0: 726788 in 681 places, all below massif's threshold (1.00%)
+   n1: 524288 0x5CA8E7F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x5D5B188: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 524288 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 524288 0x4A89FA2: start_thread (pthread_create.c:486)
+           n0: 524288 0x4BB54CE: clone (clone.S:95)
+  n2: 575265 0x5441357: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 315169 in 24 places, all below massif's threshold (1.00%)
+   n1: 260096 0x58322B4: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 260096 0x5833E85: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 260096 0x5828FF8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 260096 0x576A2FD: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 258048 0x58313AB: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n2: 258048 0x5831766: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 253952 0x576ED3F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 253952 0x576F440: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 253952 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 253952 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 253952 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 253952 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 253952 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+                n1: 253952 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 253952 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                  n1: 253952 0x4A89FA2: start_thread (pthread_create.c:486)
+                   n0: 253952 0x4BB54CE: clone (clone.S:95)
+         n0: 4096 in 1 place, below massif's threshold (1.00%)
+       n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n2: 459904 0x544E662: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 425672 0x544E031: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n0: 425672 in 12 places, all below massif's threshold (1.00%)
+   n0: 34232 in 3 places, all below massif's threshold (1.00%)
+  n1: 368656 0x544D47C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5CF88E8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5B2BA77: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x5D5B167: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 368656 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 368656 0x4A89FA2: start_thread (pthread_create.c:486)
+            n0: 368656 0x4BB54CE: clone (clone.S:95)
+  n0: 10312 in 1 place, below massif's threshold (1.00%)
+ n1: 264213 0x5B9A6C7: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n0: 264213 in 5 places, all below massif's threshold (1.00%)
+ n0: 122293 in 58 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=20868904
+mem_heap_B=20007537
+mem_heap_extra_B=68199
+mem_stacks_B=0
+heap_tree=detailed
+n3: 20007537 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 19620686 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n4: 18182221 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 8388608 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n0: 880717 in 698 places, all below massif's threshold (1.00%)
+   n1: 524288 0x5CA8E7F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x5D5B188: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 524288 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 524288 0x4A89FA2: start_thread (pthread_create.c:486)
+           n0: 524288 0x4BB54CE: clone (clone.S:95)
+  n2: 593473 0x5441357: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 333377 in 24 places, all below massif's threshold (1.00%)
+   n1: 260096 0x58322B4: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 260096 0x5833E85: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 260096 0x5828FF8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 260096 0x576A2FD: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 258048 0x58313AB: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n2: 258048 0x5831766: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 253952 0x576ED3F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 253952 0x576F440: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 253952 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 253952 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 253952 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 253952 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 253952 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+                n1: 253952 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 253952 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                  n1: 253952 0x4A89FA2: start_thread (pthread_create.c:486)
+                   n0: 253952 0x4BB54CE: clone (clone.S:95)
+         n0: 4096 in 1 place, below massif's threshold (1.00%)
+       n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n2: 460136 0x544E662: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 425672 0x544E031: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n0: 425672 in 12 places, all below massif's threshold (1.00%)
+   n0: 34464 in 3 places, all below massif's threshold (1.00%)
+  n1: 368656 0x544D47C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5CF88E8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5B2BA77: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x5D5B167: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 368656 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 368656 0x4A89FA2: start_thread (pthread_create.c:486)
+            n0: 368656 0x4BB54CE: clone (clone.S:95)
+  n0: 16200 in 1 place, below massif's threshold (1.00%)
+ n1: 264213 0x5B9A6C7: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n0: 264213 in 5 places, all below massif's threshold (1.00%)
+ n0: 122638 in 61 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=21189328
+mem_heap_B=20077842
+mem_heap_extra_B=72318
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=21490208
+mem_heap_B=20302698
+mem_heap_extra_B=74150
+mem_stacks_B=0
+heap_tree=peak
+n3: 20302698 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 19862858 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n4: 18208801 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 8388608 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n0: 907297 in 716 places, all below massif's threshold (1.00%)
+   n1: 524288 0x5CA8E7F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x5D5B188: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 524288 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 524288 0x4A89FA2: start_thread (pthread_create.c:486)
+           n0: 524288 0x4BB54CE: clone (clone.S:95)
+  n2: 659064 0x544E662: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 622136 0x544E031: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n0: 622136 in 17 places, all below massif's threshold (1.00%)
+   n0: 36928 in 3 places, all below massif's threshold (1.00%)
+  n2: 618257 0x5441357: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 358161 in 26 places, all below massif's threshold (1.00%)
+   n1: 260096 0x58322B4: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 260096 0x5833E85: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 260096 0x5828FF8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 260096 0x576A2FD: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 258048 0x58313AB: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n2: 258048 0x5831766: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 253952 0x576ED3F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 253952 0x576F440: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 253952 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 253952 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 253952 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 253952 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 253952 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+                n1: 253952 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 253952 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                  n1: 253952 0x4A89FA2: start_thread (pthread_create.c:486)
+                   n0: 253952 0x4BB54CE: clone (clone.S:95)
+         n0: 4096 in 1 place, below massif's threshold (1.00%)
+       n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n1: 368656 0x544D47C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5CF88E8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5B2BA77: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x5D5B167: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 368656 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 368656 0x4A89FA2: start_thread (pthread_create.c:486)
+            n0: 368656 0x4BB54CE: clone (clone.S:95)
+  n0: 8080 in 1 place, below massif's threshold (1.00%)
+ n1: 264213 0x5B9A6C7: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n0: 264213 in 5 places, all below massif's threshold (1.00%)
+ n0: 175627 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=21677920
+mem_heap_B=20267743
+mem_heap_extra_B=66817
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=21678032
+mem_heap_B=20267666
+mem_heap_extra_B=66782
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=21678144
+mem_heap_B=20267587
+mem_heap_extra_B=66749
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=21678288
+mem_heap_B=20267482
+mem_heap_extra_B=66710
+mem_stacks_B=0
+heap_tree=detailed
+n3: 20267482 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 19838575 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n4: 18187686 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 8388608 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n0: 886182 in 719 places, all below massif's threshold (1.00%)
+   n1: 524288 0x5CA8E7F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x5D5B188: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 524288 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 524288 0x4A89FA2: start_thread (pthread_create.c:486)
+           n0: 524288 0x4BB54CE: clone (clone.S:95)
+  n2: 659064 0x544E662: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 622136 0x544E031: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n0: 622136 in 17 places, all below massif's threshold (1.00%)
+   n0: 36928 in 3 places, all below massif's threshold (1.00%)
+  n2: 615441 0x5441357: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 355345 in 26 places, all below massif's threshold (1.00%)
+   n1: 260096 0x58322B4: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 260096 0x5833E85: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 260096 0x5828FF8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 260096 0x576A2FD: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 258048 0x58313AB: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n2: 258048 0x5831766: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 253952 0x576ED3F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 253952 0x576F440: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 253952 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 253952 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 253952 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 253952 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 253952 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+                n1: 253952 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 253952 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                  n1: 253952 0x4A89FA2: start_thread (pthread_create.c:486)
+                   n0: 253952 0x4BB54CE: clone (clone.S:95)
+         n0: 4096 in 1 place, below massif's threshold (1.00%)
+       n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n1: 368656 0x544D47C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5CF88E8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5B2BA77: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x5D5B167: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 368656 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 368656 0x4A89FA2: start_thread (pthread_create.c:486)
+            n0: 368656 0x4BB54CE: clone (clone.S:95)
+  n0: 7728 in 1 place, below massif's threshold (1.00%)
+ n1: 264213 0x5B9A6C7: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n0: 264213 in 5 places, all below massif's threshold (1.00%)
+ n0: 164694 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=21678400
+mem_heap_B=20267408
+mem_heap_extra_B=66672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=21678512
+mem_heap_B=20267334
+mem_heap_extra_B=66634
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=21678624
+mem_heap_B=20267257
+mem_heap_extra_B=66599
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=21678824
+mem_heap_B=20267065
+mem_heap_extra_B=66591
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=21678936
+mem_heap_B=20266983
+mem_heap_extra_B=66561
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=21680216
+mem_heap_B=20265732
+mem_heap_extra_B=66532
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=21680536
+mem_heap_B=20265444
+mem_heap_extra_B=66500
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=21680648
+mem_heap_B=20265368
+mem_heap_extra_B=66464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=21680752
+mem_heap_B=20265280
+mem_heap_extra_B=66448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=21681960
+mem_heap_B=20264088
+mem_heap_extra_B=66432
+mem_stacks_B=0
+heap_tree=detailed
+n3: 20264088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 19838575 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n4: 18187686 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 8388608 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n0: 886182 in 719 places, all below massif's threshold (1.00%)
+   n1: 524288 0x5CA8E7F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x5D5B188: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 524288 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 524288 0x4A89FA2: start_thread (pthread_create.c:486)
+           n0: 524288 0x4BB54CE: clone (clone.S:95)
+  n2: 659064 0x544E662: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 622136 0x544E031: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n0: 622136 in 17 places, all below massif's threshold (1.00%)
+   n0: 36928 in 3 places, all below massif's threshold (1.00%)
+  n2: 615441 0x5441357: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 355345 in 26 places, all below massif's threshold (1.00%)
+   n1: 260096 0x58322B4: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 260096 0x5833E85: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 260096 0x5828FF8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 260096 0x576A2FD: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 258048 0x58313AB: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n2: 258048 0x5831766: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 253952 0x576ED3F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 253952 0x576F440: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 253952 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 253952 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 253952 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 253952 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 253952 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+                n1: 253952 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 253952 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                  n1: 253952 0x4A89FA2: start_thread (pthread_create.c:486)
+                   n0: 253952 0x4BB54CE: clone (clone.S:95)
+         n0: 4096 in 1 place, below massif's threshold (1.00%)
+       n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n1: 368656 0x544D47C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5CF88E8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5B2BA77: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x5D5B167: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 368656 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 368656 0x4A89FA2: start_thread (pthread_create.c:486)
+            n0: 368656 0x4BB54CE: clone (clone.S:95)
+  n0: 7728 in 1 place, below massif's threshold (1.00%)
+ n1: 264213 0x5B9A6C7: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n0: 264213 in 5 places, all below massif's threshold (1.00%)
+ n0: 161300 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=21682192
+mem_heap_B=20263872
+mem_heap_extra_B=66416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=21682304
+mem_heap_B=20263804
+mem_heap_extra_B=66372
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=21683568
+mem_heap_B=20262576
+mem_heap_extra_B=66336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=21683768
+mem_heap_B=20262384
+mem_heap_extra_B=66328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=21683880
+mem_heap_B=20262304
+mem_heap_extra_B=66296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=21685144
+mem_heap_B=20261070
+mem_heap_extra_B=66266
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=21685272
+mem_heap_B=20260990
+mem_heap_extra_B=66218
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=21685400
+mem_heap_B=20260910
+mem_heap_extra_B=66170
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=21685528
+mem_heap_B=20260830
+mem_heap_extra_B=66122
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=21685640
+mem_heap_B=20260761
+mem_heap_extra_B=66079
+mem_stacks_B=0
+heap_tree=detailed
+n3: 20260761 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 19838575 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n4: 18187686 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 8388608 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n0: 886182 in 719 places, all below massif's threshold (1.00%)
+   n1: 524288 0x5CA8E7F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x5D5B188: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 524288 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 524288 0x4A89FA2: start_thread (pthread_create.c:486)
+           n0: 524288 0x4BB54CE: clone (clone.S:95)
+  n2: 659064 0x544E662: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 622136 0x544E031: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n0: 622136 in 17 places, all below massif's threshold (1.00%)
+   n0: 36928 in 3 places, all below massif's threshold (1.00%)
+  n2: 615441 0x5441357: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 355345 in 26 places, all below massif's threshold (1.00%)
+   n1: 260096 0x58322B4: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 260096 0x5833E85: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 260096 0x5828FF8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 260096 0x576A2FD: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 258048 0x58313AB: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n2: 258048 0x5831766: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 253952 0x576ED3F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 253952 0x576F440: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 253952 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 253952 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 253952 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 253952 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 253952 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+                n1: 253952 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 253952 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                  n1: 253952 0x4A89FA2: start_thread (pthread_create.c:486)
+                   n0: 253952 0x4BB54CE: clone (clone.S:95)
+         n0: 4096 in 1 place, below massif's threshold (1.00%)
+       n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n1: 368656 0x544D47C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5CF88E8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5B2BA77: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x5D5B167: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 368656 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 368656 0x4A89FA2: start_thread (pthread_create.c:486)
+            n0: 368656 0x4BB54CE: clone (clone.S:95)
+  n0: 7728 in 1 place, below massif's threshold (1.00%)
+ n1: 264213 0x5B9A6C7: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n0: 264213 in 5 places, all below massif's threshold (1.00%)
+ n0: 157973 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=73
+#-----------
+time=21685824
+mem_heap_B=20260600
+mem_heap_extra_B=66056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=21686032
+mem_heap_B=20260430
+mem_heap_extra_B=66018
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=21686136
+mem_heap_B=20260342
+mem_heap_extra_B=66002
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=21686264
+mem_heap_B=20260246
+mem_heap_extra_B=65970
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=21686408
+mem_heap_B=20260137
+mem_heap_extra_B=65935
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=21686576
+mem_heap_B=20259985
+mem_heap_extra_B=65919
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=21686816
+mem_heap_B=20259782
+mem_heap_extra_B=65882
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=21687032
+mem_heap_B=20259582
+mem_heap_extra_B=65866
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=21687200
+mem_heap_B=20259430
+mem_heap_extra_B=65850
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=21687416
+mem_heap_B=20259230
+mem_heap_extra_B=65834
+mem_stacks_B=0
+heap_tree=detailed
+n3: 20259230 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 19838575 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n4: 18187686 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 8388608 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n0: 886182 in 719 places, all below massif's threshold (1.00%)
+   n1: 524288 0x5CA8E7F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x5D5B188: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 524288 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 524288 0x4A89FA2: start_thread (pthread_create.c:486)
+           n0: 524288 0x4BB54CE: clone (clone.S:95)
+  n2: 659064 0x544E662: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 622136 0x544E031: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n0: 622136 in 17 places, all below massif's threshold (1.00%)
+   n0: 36928 in 3 places, all below massif's threshold (1.00%)
+  n2: 615441 0x5441357: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 355345 in 26 places, all below massif's threshold (1.00%)
+   n1: 260096 0x58322B4: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 260096 0x5833E85: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 260096 0x5828FF8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 260096 0x576A2FD: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 258048 0x58313AB: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n2: 258048 0x5831766: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 253952 0x576ED3F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 253952 0x576F440: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 253952 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 253952 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 253952 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 253952 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 253952 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+                n1: 253952 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 253952 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                  n1: 253952 0x4A89FA2: start_thread (pthread_create.c:486)
+                   n0: 253952 0x4BB54CE: clone (clone.S:95)
+         n0: 4096 in 1 place, below massif's threshold (1.00%)
+       n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n1: 368656 0x544D47C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5CF88E8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5B2BA77: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x5D5B167: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 368656 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 368656 0x4A89FA2: start_thread (pthread_create.c:486)
+            n0: 368656 0x4BB54CE: clone (clone.S:95)
+  n0: 7728 in 1 place, below massif's threshold (1.00%)
+ n1: 264213 0x5B9A6C7: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n0: 264213 in 5 places, all below massif's threshold (1.00%)
+ n0: 156442 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=83
+#-----------
+time=21687536
+mem_heap_B=20259126
+mem_heap_extra_B=65818
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=21687904
+mem_heap_B=20258781
+mem_heap_extra_B=65795
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=21688272
+mem_heap_B=20258436
+mem_heap_extra_B=65772
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=21688640
+mem_heap_B=20258091
+mem_heap_extra_B=65749
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=21689008
+mem_heap_B=20257746
+mem_heap_extra_B=65726
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=21689376
+mem_heap_B=20257401
+mem_heap_extra_B=65703
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=21690984
+mem_heap_B=20255801
+mem_heap_extra_B=65695
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=21693040
+mem_heap_B=20253753
+mem_heap_extra_B=65687
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=21693240
+mem_heap_B=20253568
+mem_heap_extra_B=65672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=21694272
+mem_heap_B=20252544
+mem_heap_extra_B=65664
+mem_stacks_B=0
+heap_tree=detailed
+n3: 20252544 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 19838575 0x5B9A7D6: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n4: 18187686 0x544140F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 8388608 0x576B048: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x575C6E5: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD81: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n1: 8388608 0x5781F18: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 8388608 0x576F40D: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 8388608 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 8388608 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 8388608 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 8388608 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 8388608 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 8388608 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 8388608 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+            n1: 8388608 0x4A89FA2: start_thread (pthread_create.c:486)
+             n0: 8388608 0x4BB54CE: clone (clone.S:95)
+   n0: 886182 in 719 places, all below massif's threshold (1.00%)
+   n1: 524288 0x5CA8E7F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x5D5B188: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 524288 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 524288 0x4A89FA2: start_thread (pthread_create.c:486)
+           n0: 524288 0x4BB54CE: clone (clone.S:95)
+  n2: 659064 0x544E662: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 622136 0x544E031: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n0: 622136 in 17 places, all below massif's threshold (1.00%)
+   n0: 36928 in 3 places, all below massif's threshold (1.00%)
+  n2: 615441 0x5441357: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 355345 in 26 places, all below massif's threshold (1.00%)
+   n1: 260096 0x58322B4: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 260096 0x5833E85: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 260096 0x5828FF8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 260096 0x576A2FD: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 258048 0x58313AB: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n2: 258048 0x5831766: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 253952 0x576ED3F: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 253952 0x576F440: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 253952 0x5D5AD91: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 253952 0x5D5B025: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 253952 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 253952 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 253952 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+                n1: 253952 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 253952 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                  n1: 253952 0x4A89FA2: start_thread (pthread_create.c:486)
+                   n0: 253952 0x4BB54CE: clone (clone.S:95)
+         n0: 4096 in 1 place, below massif's threshold (1.00%)
+       n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n1: 368656 0x544D47C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5CF88E8: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5B2BA77: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x5D5B167: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5847F16: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x5D3B6EC: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x58EBB00: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 368656 0x4AA77FE: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x4AAC58C: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 368656 0x4A89FA2: start_thread (pthread_create.c:486)
+            n0: 368656 0x4BB54CE: clone (clone.S:95)
+  n0: 7728 in 1 place, below massif's threshold (1.00%)
+ n1: 264213 0x5B9A6C7: ??? (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n0: 264213 in 5 places, all below massif's threshold (1.00%)
+ n0: 149756 in 68 places, all below massif's threshold (1.00%)
