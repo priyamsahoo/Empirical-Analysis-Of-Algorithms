@@ -1,6 +1,5 @@
 # Empirical-Analysis-Of-Algorithms
-A comparative empirical time complexity analysis of some well-known computational algorithms by implementing those using three of the most popular program-
-ming languages— C++, Java and Python. These programming languages are differentiated under the characteristics of their
+A comparative empirical time complexity analysis of some well-known computational algorithms by implementing those using three of the most popular programming languages — C++, Java and Python. These programming languages are differentiated under the characteristics of their
 execution time and memory utilization. The implementation results are presented using a comparative analysis.
 
 ## Algorithms
