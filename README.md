@@ -21,7 +21,7 @@ execution time and memory utilization. The implementation results are presented 
     * n-Queens problem
 
 ## Tools used for anaylysis
-* [time] (https://linux.die.net/man/1/time) Linux command:
+* [time ](https://linux.die.net/man/1/time) Linux command:
 The time command is used to determine how long a given command takes to run. It prints a summary of real-time, user CPU time and system CPU time spent on executing a command. ‘real‘ time is the time elapsed wall clock time taken, while ‘user‘ and ‘sys‘ time are the time taken in user and kernel mode respectively. For our analysis, we have taken into consideration the ‘real’ time.
 
 * massif [Valgrind ](https://valgrind.org/) tool for Linux:
